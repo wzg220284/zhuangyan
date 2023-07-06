@@ -1,2 +1,2 @@
-AABB(array,n)=lambda(array,n,TEXTSPLIT(LEFT(TEXTJOIN(,FALSE,REPT(array&"ξ",n)),LEN(TEXTJOIN(,FALSE,REPT(array&"ξ",n)))-1),,"ξ",FALSE))
-ABAB(array,n)=lambda(array,n,TEXTSPLIT(LEFT(REPT(TEXTJOIN("ξ",FALSE,array)&"ξ",n),LEN(REPT(TEXTJOIN("ξ",FALSE,array)&"ξ",n))-1),,"ξ",FALSE))
+AABB=lambda(array,n,TEXTSPLIT(LEFT(TEXTJOIN(,FALSE,REPT(array&"ξ",n)),LEN(TEXTJOIN(,FALSE,REPT(array&"ξ",n)))-1),,"ξ",FALSE));
+ABAB=lambda(array,n,TEXTSPLIT(LEFT(REPT(TEXTJOIN("ξ",FALSE,array)&"ξ",n),LEN(REPT(TEXTJOIN("ξ",FALSE,array)&"ξ",n))-1),,"ξ",FALSE))
